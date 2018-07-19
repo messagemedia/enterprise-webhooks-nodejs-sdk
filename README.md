@@ -45,7 +45,7 @@ Create an empty directory for your project, let’s name it “testApp”. Now, 
 Run `npm install` to install the necessary packages.
 
 ### Adding in the public key
-Open up the index.js file and replace the placeholder that says PUBLIC_KEY_HERE with your public key. The result should look like this:
+Open up the index.js file and replace the placeholder that says ```PUBLIC_KEY_HERE``` with your public key. The result should look like this:
 ```javascript
 var publicKey = '-----BEGIN PUBLIC KEY-----\n'+
   'MIIabcdNBgkqhkiG9w0BAQ4AAOCA338AMIIBCgKCAQEAwISbN8vv0HeUCPN9o29xCUzCsh0ZUM+wdc3Gi3+DfyO4rPec1f/uxFbw0Dscw1iEA1dUfQ5eKhhsOIPdjk//gOGQbBVmQ8DhDcGVGWrHrE/n/K/x0ZkIae4n4eNobK96Ic/C4YmXf5LBUmgkOwUM+5VDPxe3rMnm/3TQdJzAcBMIzqNixzseCh4ICYMSahKnkNY5bJGf+8WbT0i+3mHQwvLacAub+wFH6hyT4I7FXOcXmR+HIyD8xwwYLmB4Yy+cMmiDcc1J9KX34C5apXM2A3f2mOtgfM0WSH2NpXmZmpXmzbkbIxEw90N3zERrDb2myJAHAD0MKQ7abcdxPen96dIDAQAB\n'+
@@ -58,7 +58,7 @@ The request line will need to be changed according to your callback url and requ
   verifier.update("PATCH /captureData HTTP/1.1" + date + body);
 ```
 
-## Testing
+### Testing
 You are now ready to test the application. From the root directory of your application (where your index.js file is), run `node index`
 If all goes well, you should receive a `true` response which indicates the verification was a success.
 
