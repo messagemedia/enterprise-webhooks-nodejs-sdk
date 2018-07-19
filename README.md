@@ -3,7 +3,7 @@
 
 The MessageMedia Secure Webhooks code guide demonstrates how you can verify webhooks signed and sent to you by MessageMedia.
 
-![Isometric](https://i.imgur.com/jJeHwf5.png)
+![Isometric](http://i64.tinypic.com/2aalw86.jpg)
 
 ## Table of Contents
 * [Information](#newspaper-information)
