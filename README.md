@@ -1,7 +1,7 @@
-# MessageMedia Secure Webhooks NodeJS Code Guide
+# MessageMedia Enterprise Webhooks NodeJS Code Guide
 [![Pull Requests Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat)](http://makeapullrequest.com)
 
-The MessageMedia Secure Webhooks code guide demonstrates how you can verify webhooks signed and sent to you by MessageMedia.
+The MessageMedia Enterprise Webhooks code guide demonstrates how you can verify webhooks signed and sent to you by MessageMedia.
 
 ![Isometric](http://i64.tinypic.com/2aalw86.jpg)
 
